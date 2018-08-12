@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Main weather </title>
+    <title>Cloudiness</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -43,42 +43,36 @@
         <div class="col-lg-8">
             <div class="panel panel-default">
                 <div class="panel-body">
-            <h3>Summary:Latitude vs X</h3>
+                    <h3>Cloudiness</h3>
                     <hr>
-            <img src="asset/images/Fig1.png" style="width:200px;height:200px" alt="Fig1">
-                    <p class="text">The purpose of this project was to analyze how weather changes as you get closer to the equator
-            . To accomplish tjis analysis, we first pulled data from the OpenWeatherMap API to
-            assemble a dataset on over 500 cities.</p>
+                    <img src="asset/images/Fig3.png" style="width:500px;height:500px" alt="Fig3">
 
-            <p class="text">After assesmbling the dataset, we used Matplotlib to plot various aspects of the
-                weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-            This site provides the source data and visualizations created as part of the analysis,
-            as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <p class="text">There seems to be no strong relationship between latitude and cloudiness but there
+                    are many cities with 0% and between 75%-95% of cloudiness</p>
                 </div>
             </div>
         </div>
-<!--</div>-->
-    <div class="col-lg-4">
-        <div class="panel panel-default">
-            <div class="panel-body">
-            <h3>Visualization</h3>
-          <hr>
-                <div class="row md-t3" >
-                    <div class="col-lg-6"><a href="max_temp.html"><img class = "img img-responsive" src="asset/images/Fig1.png" style="width:100%" alt=""></a></div>
-                    <div class="col-lg-6"><a href="humidity.html"><img class = "img img-responsive" src="asset/images/Fig2.png" style="width:100%" alt=""></a></div>
-                </div>
-                <div class="row md-t3">
-                    <div class="col-lg-6"><a href="cloudiness.html"><img class = "img img-responsive" src="asset/images/Fig3.png" style="width:100%" alt=""></a></div>
-                    <div class="col-lg-6"><a href="windspeed.html"><img class = "img img-responsive" src="asset/images/Fig4.png" style="width:100%" alt=""></a></div>
+        <!--</div>-->
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Visualization</h3>
+                    <hr>
+                    <div class="row md-t3" >
+                        <div class="col-lg-6"><a href="max_temp.html"><img class = "img img-responsive" src="asset/images/Fig1.png" style="width:100%" alt=""></a></div>
+                        <div class="col-lg-6"><a href="humidity.html"><img class = "img img-responsive" src="asset/images/Fig2.png" style="width:100%" alt=""></a></div>
+                    </div>
+                    <div class="row md-t3">
+                        <div class="col-lg-6"><a href="cloudiness.html"><img class = "img img-responsive" src="asset/images/Fig3.png" style="width:100%" alt=""></a></div>
+                        <div class="col-lg-6"><a href="windspeed.html"><img class = "img img-responsive" src="asset/images/Fig4.png" style="width:100%" alt=""></a></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 
     </div>
 </div>
 
 </body>
 </html>
-
